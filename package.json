@@ -1,6 +1,7 @@
+
 {
-  "name": "dex-assistant",
-  "version": "1.0.0",
+  "name": "dex-assistant-ui",
+  "version": "2.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
