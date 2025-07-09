@@ -15,6 +15,6 @@ export default async function handler(req, res) {
   });
 
   const data = await chatRes.json();
-  const reply = data.choices?.[0]?.message?.content || 'Hmm, I'm not sure. Try again?';
+  const reply = data.choices?.[0]?.message?.content || "Hmm, I'm not sure. Try again?";
   res.status(200).json({ reply });
 }
